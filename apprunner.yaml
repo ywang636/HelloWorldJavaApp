@@ -5,7 +5,7 @@ build:
     build:
       - mvn clean package
 run:
-  runtime-version: uuid1
+  runtime-version: uuid2
   command: java -jar target/HelloWorldJavaApp-1.0-SNAPSHOT.jar -Xms256m .
   network:
     port: 8080
