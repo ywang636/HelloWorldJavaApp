@@ -1,11 +1,11 @@
 version: 1.0
-runtime: corretto11
+runtime: corretto8
 build:
   commands:
     build:
       - mvn clean package
 run:
-  runtime-version: uuid3
+  runtime-version: uuid2
   command: java -jar target/HelloWorldJavaApp-1.0-SNAPSHOT.jar -Xms256m .
   network:
     port: 8080
