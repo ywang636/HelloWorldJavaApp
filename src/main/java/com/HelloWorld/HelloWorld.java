@@ -8,7 +8,7 @@ public class HelloWorld {
 
     @RequestMapping("/")
     public String index(){
-        String s = "Hello World";
+        String s = System.getProperty("java.version");
         return s;
     }
 }
