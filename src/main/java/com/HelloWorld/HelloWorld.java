@@ -9,6 +9,7 @@ public class HelloWorld {
     @RequestMapping("/")
     public String index(){
         String s = System.getProperty("java.version");
+        s = 'new verision';
         return s;
     }
 }
